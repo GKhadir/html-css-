@@ -1,0 +1,54 @@
+h1{
+    text-align: center;
+}
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2024/02/24/07/24/stilt-8593487_640.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    background-attachment: fixed;
+}
+#box-model{
+    font-size: 50px;
+    /* padding-top: 100px;
+    padding-right: 200px;
+    padding-left: 300px;
+    padding-bottom: 400px; */
+
+    padding: 200px;
+
+    width: 400px;
+    height: 200px;
+    
+    /* border: 5px;
+    border-color: black;
+    border-style: dotted; */
+
+    border: 50px solid red;
+
+    /* border-top: 50px;
+    border-top-style: dashed;
+    border-top-color: brown; */
+
+    border-top: 50px dashed blue;
+
+    /* border-bottom: 50px;
+    border-bottom-style: dashed;
+    border-bottom-color: brown; */
+
+    border-bottom: 50px dashed rgb(32, 182, 82);
+
+    /* border-left: 50px;
+    border-left-style: dashed;
+    border-left-color: brown; */
+
+    border-left: 50px dashed rgb(201, 81, 147);
+
+    /* border-right: 50px;
+    border-right-style: dashed;
+    border-right-color: brown; */
+
+    border-right: 50px dashed rgb(50, 106, 158);
+
+    border-top-left-radius: 100px;
+
+}

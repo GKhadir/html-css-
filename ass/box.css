@@ -1,0 +1,61 @@
+body{
+    background-image: url("images\ \(6\).jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100vh;
+    background-color:pink;
+    display: flex
+    
+}
+#cart{
+    width: 300px;
+    height: 500px;
+    background-color: black;
+    margin:80px 5px 20px;
+    border: 3px solid yellow;
+}
+#img{
+    background-image: url("https://cdn.pixabay.com/photo/2024/02/24/07/24/stilt-8593487_640.jpg");
+    background-repeat: no-repeat;
+    background-size: 250px 200px;
+    margin: 25px;
+    height: 200px;
+    width: 250px;
+}
+#img1{
+    background-image: url("images.jpeg");
+    background-repeat: no-repeat;
+    background-size: 250px 200px;
+    margin: 25px;
+    height: 200px;
+    width: 250px;
+}
+#img2{
+    background-image: url("men.jpeg");
+    background-repeat: no-repeat;
+    background-size: 250px 200px;
+    margin: 25px;
+    height: 200px;
+    width: 250px;
+}
+#img3{
+    background-image: url("lap.jpeg");
+    background-repeat: no-repeat;
+    background-size: 250px 200px;
+    margin: 25px;
+    height: 200px;
+    width: 250px;
+}
+#pra{
+    color: red;
+    line-height: 25px;
+    margin: 25px;
+    text-align: justify;
+}
+#button{
+    color: white;
+    border: 2px solid blueviolet;
+    margin: 15px 90PX;
+    padding: 5px 45px;
+    background-color: brown;
+}

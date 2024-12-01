@@ -1,0 +1,43 @@
+body{
+    background-color: aqua;
+    background-image: url("https://cdn.pixabay.com/photo/2024/11/02/17/29/city-9169729_640.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    background-attachment: fixed;
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 5px 5px 5px white;
+}
+p{
+    background-image: url("https://cdn.pixabay.com/photo/2024/02/24/07/24/stilt-8593487_640.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 800px;
+    background-attachment: fixed;
+    color: rgb(37, 12, 12);
+    padding: 50px;
+    width: 60%;
+    margin: 100px auto;
+    text-indent: 100px;
+    line-height: 50px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: capitalize;
+    box-shadow: 15px 15px 15px yellow;
+    
+}
+#con{
+    padding:50px;
+    border:3px solid black;
+    width: 40%;
+    height: 200px;
+    border-style:solid;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+    margin: 50px auto ;
+    text-indent: 50px;
+    line-height: 35px;
+    text-align: justify;
+}

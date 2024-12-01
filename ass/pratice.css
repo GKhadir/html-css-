@@ -1,0 +1,36 @@
+body{
+    background-color: springgreen;
+}
+#book{
+    background-color: black;
+    height: 300px;
+    width:1260px;
+    margin-top: 200px;
+}
+#long{
+    border-right-width: 30px;
+    border-style: solid;
+    border-color: goldenrod;
+    height: 250px;
+    width: 400px;
+    margin:25px auto;
+    border-left: black
+    ;
+    
+}
+#chandra{
+    border: 2px;
+    border-style: dashed ;
+    border-color: goldenrod;
+    /* background-color: goldenrod; */
+    height: 100px;
+    margin: 7px;
+}
+#miss{
+    background-color: goldenrod;
+    margin: 7px;
+    height: 80px;
+    text-align: center;
+    padding:2px;
+    
+}
