@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: khaki;
+            
+        }
+        h1{
+            text-align: center;
+        }
+        #animation{
+            background-image: url("ass/images.jpeg");
+            background-repeat: no-repeat;
+            background-size: 300px 300px;
+            height: 300px;
+            width: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: brown;
+            position: relative;
+            top: 150px;
+            left: 400px;
+            color: white;
+            animation-name: box;
+            animation-duration: 3s;
+            animation-timing-function: linear;
+            animation-delay: 0s;
+            animation-iteration-count: 5;
+            animation-duration: reverse;
+        }
+        @keyframes box{
+            0%{
+                background-color: brown;
+                position: relative;
+                top: 0px;
+                left: 0px;
+            }
+            25%{
+                background-color: yellow;
+                position: relative;
+                top: 0px;
+                left: 400px;
+            }
+            50%{
+                background-color: aqua;
+                position: relative;
+                top: 300px;
+                left: 400px;
+            }
+            75%{
+                background-color: red;
+                position: relative;
+                top: 300px;
+                left: 0px;
+            }
+            100%{
+                background-color: red;
+                position: relative;
+                top: 0px;
+                left: 0px;
+            }
+        
+        }
+    </style>
+</head>
+<body>
+    <h1>animation in css</h1>
+    <div id="animation">
+        <!-- <img src="ass/images.jpeg" alt=""> -->
+    </div>
+</body>
+</html>

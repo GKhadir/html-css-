@@ -1,0 +1,20 @@
+body{
+    background-color: khaki;
+}
+h4{
+    text-align: center;
+    text-decoration: 5px solid royalblue underline;
+    font-size: 50px;
+}
+main~h1{
+    color: aqua;
+    background-color: black;
+}
+article>h2{
+    color: blue;
+    background-color: black;
+}
+main+p{
+    color: rgb(19, 160, 117);
+    background-color: black;
+}

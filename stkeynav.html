@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box;
+        }
+        nav{
+      
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            width: 100%;
+            height: 100px;
+            background-color: yellowgreen;
+            position: sticky;
+            top: 0;
+        }
+        div{
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            width: 70%;
+        }
+        main{
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+            position: absolute;
+            top: 200px;
+        }
+        #div1{
+            background-image: url("ass/images.jpeg");
+            background-repeat: no-repeat;
+            background-size: 300px 250px;
+            height: 250px;
+            width: 300px;
+            position: absolute;
+            top: 50px;
+            left: 50px;
+        }
+        #div2{
+            line-height: 30px;
+        }
+        #div2>h1{
+            position: absolute;
+            top: 30px;
+            right: 500px;
+
+        }
+        #div2>p{
+            position: absolute;
+            top: 100px;
+            right: 400px; 
+            text-align: justify;
+        }
+        h6{
+            position: absolute;
+            top: 250px;
+            right: 650px;  
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div id="con">
+            <h1>home</h1>
+            <div>
+                <p>service</p>
+                <p>cart</p>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div id="div1"></div>
+        <div id="div2">
+            <h1>good morning</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Harum, neque sed eius tempora libero unde a consectetur <br> odit quae ea velit voluptatum, suscipit  <br>placeat praesentium atque culpa vel excepturi esse?</p>
+            <h6>bay have a goog day</h6>
+        </div>
+    </main>
+</body>
+</html>

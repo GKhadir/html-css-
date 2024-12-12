@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: khaki;
+        }
+        h1{
+            text-align: center;
+            text-decoration:red 2px dotted;
+        }
+        h2{
+            
+            position: absolute;
+            top:200px;
+            left: 550px;
+        }
+        div{
+          display: inline;
+          
+        }
+        div::after{
+            content: java;
+            animation: text 10s linear 0s infinite normal ;
+        }
+        @keyframes text{
+            0%{
+                content: java;
+                color: red;
+            }
+            20%{
+                content: css;
+                color: aqua;
+            }
+            40%{
+                content: js;
+                color: blue;
+                font-size: 50px;
+            }
+            60%{
+                content: r js;
+                color: brown;
+                
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>animation text function</h1>
+
+    <h2>i love <div></div></h2>
+</body>
+</html>

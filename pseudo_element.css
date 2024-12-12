@@ -1,0 +1,56 @@
+h1{
+    text-align: center;
+    color: aqua;
+}
+
+#section{
+    height: 400px;
+    width: 100%;
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#img{
+    height:300px;
+    width:40%;
+    background-image: url("ass/images.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 300px;    
+}
+#para{
+    width: 30%;
+}
+#para>p{
+    width: 100%;
+    text-align: justify;
+    text-indent: 50px;
+}
+#para>p::first-letter{
+    color: red;
+    font-size: 30px;
+}
+#para>p::first-line{
+    color: blue;
+}
+#para>p::after{
+    content: 😎;
+}
+#para>p::after{
+    content: Thank You;
+    color: red;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#para>p::selection{
+    background-color: aqua;
+    color: brown;
+
+}
+li::marker{
+    color: blue;
+    font-size: 25px;
+}
+ol{
+    display: inline-block;
+}
